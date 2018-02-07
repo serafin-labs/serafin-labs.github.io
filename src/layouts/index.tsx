@@ -47,15 +47,19 @@ const TemplateWrapper: any = ({ children, data, location }: any) => {
       hero = data.site.siteMetadata.hero.home;
       break;
     case '/saas':
+    case '/saas/':
       hero = data.site.siteMetadata.hero.saas;
       break;
     case '/open-source':
+    case '/open-source/':
       hero = data.site.siteMetadata.hero.openSource;
       break;
     case '/consulting':
+    case '/consulting/':
       hero = data.site.siteMetadata.hero.consulting;
       break;
     case '/team':
+    case '/team/':
       hero = data.site.siteMetadata.hero.team;
       break;
     default:
