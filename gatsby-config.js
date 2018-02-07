@@ -9,7 +9,7 @@ module.exports = {
       },
       saas: {
         title: "Serafin Genesis SaaS",
-        subtitle: "The first API Content Management System",
+        subtitle: "The API Content Management System",
         color: "linear-gradient(45deg, #00c9ff 30%, #92fe9d 90%)" /* https://uigradients.com/#BackToEarth */
       },
       openSource: {
@@ -19,7 +19,7 @@ module.exports = {
       },
       consulting: {
         title: "API Experts",
-        subtitle: "At your finger tips",
+        subtitle: "At your fingertips",
         color: "linear-gradient(45deg, #00d2ff 30%, #3a7bd5 90%)"
       },
       team: {

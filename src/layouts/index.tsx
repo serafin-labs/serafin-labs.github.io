@@ -61,7 +61,6 @@ const TemplateWrapper: any = ({ children, data, location }: any) => {
     default:
       hero = null;
   }
-  console.log(hero)
   return <MuiThemeProvider theme={theme}>
     <div style={{}}>
       <Reboot />

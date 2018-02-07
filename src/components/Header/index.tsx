@@ -34,6 +34,12 @@ let ActiveButton = ({ activeColor, to, ...props }: any) => {
       }} />} color="inherit" />
 }
 
+let ActiveListItem = ({ activeColor, to, ...props }: any) => {
+  return <ListItem button style={{ color: "rgba(0, 0, 0, 0.54)" }} {...props} component={props => <Link exact to={to} {...props} activeStyle={{
+    color: activeColor
+  }} />} />
+}
+
 class Header extends React.Component<any, { isDrawerOpen: boolean }> {
   state = {
     isDrawerOpen: false,
@@ -99,37 +105,37 @@ class Header extends React.Component<any, { isDrawerOpen: boolean }> {
             >
               <div className={classes.sideList}>
                 <List component="nav">
-                  <ListItem button component={props => <Link to="/" {...props} />}>
-                    <ListItemIcon>
+                  <ActiveListItem button to="/" activeColor={theme.palette.secondary.main}>
+                    <ListItemIcon style={{ color: "inherit" }}>
                       <HomeIcon />
                     </ListItemIcon>
                     <ListItemText primary="Home" />
-                  </ListItem>
+                  </ActiveListItem>
                   <Divider />
-                  <ListItem button component={props => <Link to="/saas" {...props} />}>
-                    <ListItemIcon>
+                  <ActiveListItem button to="/saas" activeColor={theme.palette.secondary.main}>
+                    <ListItemIcon style={{ color: "inherit" }}>
                       <CloudIcon />
                     </ListItemIcon>
                     <ListItemText primary="SaaS" />
-                  </ListItem>
-                  <ListItem button component={props => <Link to="/open-source" {...props} />}>
-                    <ListItemIcon>
+                  </ActiveListItem>
+                  <ActiveListItem button to="/open-source" activeColor={theme.palette.secondary.main}>
+                    <ListItemIcon style={{ color: "inherit" }}>
                       <StarIcon />
                     </ListItemIcon>
                     <ListItemText primary="Open Source" />
-                  </ListItem>
-                  <ListItem button component={props => <Link to="/consulting" {...props} />}>
-                    <ListItemIcon>
+                  </ActiveListItem>
+                  <ActiveListItem button to="/consulting" activeColor={theme.palette.secondary.main}>
+                    <ListItemIcon style={{ color: "inherit" }}>
                       <LaptopMacIcon />
                     </ListItemIcon>
                     <ListItemText primary="Consulting" />
-                  </ListItem>
-                  <ListItem button component={props => <Link to="/team" {...props} />}>
-                    <ListItemIcon>
+                  </ActiveListItem>
+                  <ActiveListItem button to="/team" activeColor={theme.palette.secondary.main}>
+                    <ListItemIcon style={{ color: "inherit" }}>
                       <PeopleIcon />
                     </ListItemIcon>
                     <ListItemText primary="Team" />
-                  </ListItem>
+                  </ActiveListItem>
                 </List>
               </div>
             </div>

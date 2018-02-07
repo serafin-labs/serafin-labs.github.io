@@ -16,7 +16,11 @@ export default withStyles(theme => ({
       <ErrorIcon style={{ width: "5rem", height: "5rem" }} />
       <div>Error 404</div>
     </Typography>
-    <h2>You weren't supposed to see this page...</h2>
+    <br />
+    <Typography variant="headline" color="inherit">
+      You weren't supposed to see this page...
+    </Typography>
+    <br />
     <div>
       <Button variant="raised" color="secondary" className={classes.homeButton} component={props => <Link to="/" {...props} />}>
         <HomeIcon className={classes.leftIcon} />

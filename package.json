@@ -27,6 +27,7 @@
     "gatsby-link": "latest",
     "gatsby-plugin-react-helmet": "^2.0.3",
     "gatsby-plugin-typescript": "latest",
+    "gh-pages": "^1.1.0",
     "material-ui": "^1.0.0-beta.32",
     "material-ui-icons": "^1.0.0-beta.17",
     "react-addons-css-transition-group": "^15.6.2",
@@ -42,7 +43,8 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "devDependencies": {
     "prettier": "^1.10.2"
