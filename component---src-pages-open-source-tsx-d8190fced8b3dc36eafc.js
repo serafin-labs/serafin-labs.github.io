@@ -1,0 +1,2 @@
+webpackJsonp([0xd8fe30800ead],{283:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var a=n(1),l=n(69),r=n(50),d=function(e){e.data;return a.createElement("div",{style:{paddingTop:"4rem"}},a.createElement(r.default,{delay:300,variant:"headline",color:"inherit",style:{textAlign:"center"}},a.createElement(l.default,null),"More details coming soon"))};t.default=d}});
+//# sourceMappingURL=component---src-pages-open-source-tsx-d8190fced8b3dc36eafc.js.map

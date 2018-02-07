@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "component---src-layouts-index-tsx": [
-      "component---src-layouts-index-tsx-e7bdc078dedaaf84359e.js",
-      "component---src-layouts-index-tsx-e7bdc078dedaaf84359e.js.map"
+      "component---src-layouts-index-tsx-2ed52a059920f8626a47.js",
+      "component---src-layouts-index-tsx-2ed52a059920f8626a47.js.map"
     ],
     "path---open-source": [
       "path---open-source-a0e39f21c11f6a62c5ab.js",
@@ -17,50 +17,50 @@
       "path---saas-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-saas-tsx": [
-      "component---src-pages-saas-tsx-6043c1eb48d94f1b78e1.js",
-      "component---src-pages-saas-tsx-6043c1eb48d94f1b78e1.js.map"
+      "component---src-pages-saas-tsx-42a74558d0e3e754f577.js",
+      "component---src-pages-saas-tsx-42a74558d0e3e754f577.js.map"
     ],
     "component---src-pages-team-tsx": [
-      "component---src-pages-team-tsx-44c8768ea2cba06a51a9.js",
-      "component---src-pages-team-tsx-44c8768ea2cba06a51a9.js.map"
+      "component---src-pages-team-tsx-c26244f5cf889681a144.js",
+      "component---src-pages-team-tsx-c26244f5cf889681a144.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
       "path---index-a0e39f21c11f6a62c5ab.js.map"
     ],
     "commons": [
-      "commons-6669a23a05847cd3cd9e.js",
-      "commons-6669a23a05847cd3cd9e.js.map"
+      "commons-27bc960afd8e27edca27.js",
+      "commons-27bc960afd8e27edca27.js.map"
     ],
     "component---src-pages-404-tsx": [
-      "component---src-pages-404-tsx-f835e07b33332595ce4f.js",
-      "component---src-pages-404-tsx-f835e07b33332595ce4f.js.map"
+      "component---src-pages-404-tsx-70d4694049d541cc60da.js",
+      "component---src-pages-404-tsx-70d4694049d541cc60da.js.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-consulting-tsx": [
-      "component---src-pages-consulting-tsx-e62214528baa6d803201.js",
-      "component---src-pages-consulting-tsx-e62214528baa6d803201.js.map"
+      "component---src-pages-consulting-tsx-fb84b2b3a91dc8699132.js",
+      "component---src-pages-consulting-tsx-fb84b2b3a91dc8699132.js.map"
     ],
     "path---team": [
       "path---team-a0e39f21c11f6a62c5ab.js",
       "path---team-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-index-tsx": [
-      "component---src-pages-index-tsx-6d710cefad3b69f3ed59.js",
-      "component---src-pages-index-tsx-6d710cefad3b69f3ed59.js.map"
+      "component---src-pages-index-tsx-7946c935835455b49841.js",
+      "component---src-pages-index-tsx-7946c935835455b49841.js.map"
     ],
     "app": [
-      "app-c169ff5c5c1ac67fb4ed.js",
+      "app-8d2e4b732c9ca4efd0ab.js",
       "build-js-styles.css",
-      "app-c169ff5c5c1ac67fb4ed.js.map",
+      "app-8d2e4b732c9ca4efd0ab.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-pages-open-source-tsx": [
-      "component---src-pages-open-source-tsx-c369d10059e49cdbddcd.js",
-      "component---src-pages-open-source-tsx-c369d10059e49cdbddcd.js.map"
+      "component---src-pages-open-source-tsx-d8190fced8b3dc36eafc.js",
+      "component---src-pages-open-source-tsx-d8190fced8b3dc36eafc.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",

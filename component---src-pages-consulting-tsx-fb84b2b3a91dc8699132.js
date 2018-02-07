@@ -1,0 +1,2 @@
+webpackJsonp([0xa885e48d4dd3],{281:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var a=n(1),l=n(69),d=n(50),r=function(e){e.data;return a.createElement("div",{style:{paddingTop:"4rem"}},a.createElement(d.default,{delay:300,variant:"headline",color:"inherit",style:{textAlign:"center"}},a.createElement(l.default,null),"More details coming soon"))};t.default=r}});
+//# sourceMappingURL=component---src-pages-consulting-tsx-fb84b2b3a91dc8699132.js.map
