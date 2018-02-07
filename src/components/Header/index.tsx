@@ -92,7 +92,7 @@ class Header extends React.Component<any, { isDrawerOpen: boolean }> {
           </Hidden>
 
           <Hidden mdUp>
-            <IconButton onClick={this.handleOpen} className={classes.menuButton} color="inherit" aria-label="Menu">
+            <IconButton onClick={this.handleOpen} color="inherit" aria-label="Menu">
               <MenuIcon />
             </IconButton>
           </Hidden>
@@ -161,10 +161,6 @@ export default withStyles<any>((theme: any): any => ({
     position: "relative",
     marginTop: "1.66rem",
     marginLeft: "1.39rem"
-  },
-  menuButton: {
-    marginLeft: -12,
-    marginRight: 20,
   },
   sideList: {
     width: 250,
