@@ -1,0 +1,2 @@
+webpackJsonp([0xc956abe28b23],{283:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var l=n(1),a=n(35),r=n(69),i=function(){return l.createElement("div",{style:{paddingTop:"4rem"}},l.createElement(a.default,{variant:"headline",color:"inherit",style:{textAlign:"center"}},l.createElement(r.default,null),"More details coming soon"))};t.default=i}});
+//# sourceMappingURL=component---src-pages-index-tsx-6d710cefad3b69f3ed59.js.map

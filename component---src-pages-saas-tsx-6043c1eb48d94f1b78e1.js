@@ -1,0 +1,2 @@
+webpackJsonp([0x665b96617433],{285:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var a=n(1),l=n(35),r=n(69),i=function(e){e.data;return a.createElement("div",{style:{paddingTop:"4rem"}},a.createElement(l.default,{variant:"headline",color:"inherit",style:{textAlign:"center"}},a.createElement(r.default,null),"More details coming soon"))};t.default=i}});
+//# sourceMappingURL=component---src-pages-saas-tsx-6043c1eb48d94f1b78e1.js.map
