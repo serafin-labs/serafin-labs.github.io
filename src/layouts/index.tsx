@@ -69,7 +69,7 @@ const TemplateWrapper: any = ({ children, data, location }: any) => {
     <div style={{}}>
       <Reboot />
       <Helmet
-        title="Gatsby Default Starter"
+        title="Serafin Labs"
         meta={[
           { name: 'description', content: 'Serafin Labs Website' },
           { name: 'keywords', content: 'API, Open API' },
