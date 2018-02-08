@@ -25,6 +25,7 @@
     "@types/react-transition-group": "^2.0.6",
     "gatsby": "latest",
     "gatsby-link": "latest",
+    "gatsby-plugin-google-analytics": "^1.0.17",
     "gatsby-plugin-react-helmet": "^2.0.3",
     "gatsby-plugin-typescript": "latest",
     "gh-pages": "^1.1.0",

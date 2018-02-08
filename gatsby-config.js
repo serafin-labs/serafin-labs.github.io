@@ -29,5 +29,14 @@ module.exports = {
       }
     }
   },
-  plugins: ['gatsby-plugin-react-helmet', 'gatsby-plugin-typescript'],
+  plugins: [
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-typescript',
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-113784153-1"
+      },
+    }
+  ],
 };
